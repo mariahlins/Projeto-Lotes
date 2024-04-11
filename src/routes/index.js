@@ -1,5 +1,5 @@
 const express = require('express');
-const lotes = require('./loteRoutes.js');
+const lotes = require('../routes/loteRoutes.js');
 
 const routes = (app) =>{
     app.use(
