@@ -21,21 +21,23 @@
     <li>Relatórios: Geração de relatórios sobre os lotes cadastrados, como relatórios de vendas, ocupação e disponibilidade.</li>
   </ul>
 
-  <h2>Instalação</h2>
+<h2>Instalação</h2>
 
-  <ol>
-    <li><strong>Clonar o repositório:</strong><br>
+<ol>
+  <li><strong>Clonar o repositório:</strong><br>
     <code>git clone https://github.com/mariahlins/Projeto-Lotes.git</code></li>
 
-    <li><strong>Instalar as dependências:</strong><br>
-    <code>npm install</code></li>
+  <li><strong>Instalar as dependências:</strong><br>
+    Para instalar as dependências do projeto, execute o seguinte comando no terminal:</li>
+  <pre><code>npm install</code></pre>
 
-    <li><strong>Configuração do banco de dados:</strong><br>
-    O sistema utiliza um banco de dados MySQL. Certifique-se de ter um servidor MySQL configurado e as credenciais corretas configuradas no arquivo <code>.env</code>.</li>
+  <li><strong>Configuração do banco de dados:</strong><br>
+    Este projeto requer um banco de dados MySQL. Antes de executá-lo, certifique-se de ter um servidor MySQL configurado e as credenciais adequadas definidas no arquivo <code>.env</code>.</li>
 
-    <li><strong>Executar o servidor:</strong><br>
-    <code>npm start</code></li>
-  </ol>
+  <li><strong>Executar o servidor:</strong><br>
+    Para iniciar o servidor e executar o projeto, utilize o comando:</li>
+  <pre><code>npm start</code></pre>
+</ol>
 
   <h2>Contribuição</h2>
 
