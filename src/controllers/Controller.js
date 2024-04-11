@@ -11,6 +11,15 @@ class Controller {
             return res.status(500).json(erro.message);
         }
     }
+    async pegaPorId(req, res) {
+        const id = req.params.id;
+        try {
+            const registro = await this.entidadeService.pegaUmRegistro(Number(id));
+            return res.status(200).json(registro);
+        } catch (erro) {
+           return res.status(500).json(erro.message);
+        }
+    }
     async atualiza(req,res){
         const id = req.params.id;
         const dadosNovos = req.body;
